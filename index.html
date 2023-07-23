@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="icon" href="image.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Contrast Checker</title>
+</head>
+<body>
+    <header>
+        <h2>Color Checker</h2>
+        <h4>By &copy Sushant</h4>
+    </header>
+
+    <div class="container">
+        <div class="input-colors">
+            <div class="color-container">
+                <label for="text-color">Text Color</label>
+                <input type="color" id="text-color" value="#000000"/>
+            </div>
+            <div class="color-container">
+                <label for="bg-color">Background Color</label>
+                <input type="color" id="bg-color" value="#3277f6"/>
+            </div>
+        </div>
+        <div class="result">
+            <div id="preview">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, voluptas.
+            </div>
+            <p id="contrast">1</p>
+            <p id="rating">Demo Text</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://twitter.com/itz_sushantjha" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/sushant-jha-5017a0239/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/thenameissushant" class="fa fa-github"></a>
+     </div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
